@@ -7523,10 +7523,2059 @@
 
 
       </div>
-  </div>
+    </div>
 
     <!-- page 5 -->
+    <div class="row">
+      <div class="col-6">
+          <div class="questions-container">
 
+
+
+
+              <!-- exam-view48 -->
+              <!-- Question -->
+              <div class="card exam-question-card">
+                  <div class="card-header text-white bg-primary">
+                      Question #4
+                      <span class="question-title-topic pull-right">
+                          Topic 2
+                      </span>
+                  </div>
+                  <div class="card-body question-body" data-id="816265">
+                      <p class="card-text">
+
+
+                          Note: This question is part of a series of questions that present the same scenario.
+                          Each question in the series contains a unique solution that might meet the stated
+                          goals. Some question sets might have more than one correct solution, while others
+                          might not have a correct solution.<br>After you answer a question in this section,
+                          you will NOT be able to return to it. As a result, these questions will not appear
+                          in the review screen.<br>You develop a software as a service (SaaS) offering to
+                          manage photographs. Users upload photos to a web service which then stores the
+                          photos in Azure<br>Storage Blob storage. The storage account type is General-purpose
+                          V2.<br>When photos are uploaded, they must be processed to produce and save a
+                          mobile-friendly version of the image. The process to produce a mobile-friendly
+                          version of the image must start in less than one minute.<br>You need to design the
+                          process that starts the photo processing.<br>Solution: Trigger the photo processing
+                          from Blob storage events.<br>Does the solution meet the goal?<br>
+
+                      </p>
+                      <!-- exam-view49 -->
+
+                      <div class="question-choices-container">
+                          <div class="voted-answers-tally d-none">
+
+                              <script id="816265"
+                                  type="application/json">[{"voted_answers": "B", "vote_count": 6, "is_most_voted": true}, {"voted_answers": "A", "vote_count": 5, "is_most_voted": false}]</script>
+
+                          </div>
+                          <ul>
+
+                              <li class="multi-choice-item">
+
+                                  <span class="multi-choice-letter" data-choice-letter="A">
+                                      A.
+                                  </span>
+
+                                  Yes
+                              </li>
+
+                              <li class="multi-choice-item correct-hidden">
+
+                                  <span class="multi-choice-letter" data-choice-letter="B">
+                                      B.
+                                  </span>
+
+                                  No
+                                  <span class="badge badge-success most-voted-answer-badge" title=""
+                                      style="display: none;"
+                                      data-original-title="This answer is currently the most voted for in the discussion">
+                                      Most Voted
+                                  </span>
+                              </li>
+
+                          </ul>
+                      </div>
+
+                      <!-- exam-view410 -->
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary reveal-solution d-print-none">Reveal Solution</a>
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary hide-solution d-print-none d-none">Hide Solution</a>
+
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-secondary question-discussion-button d-print-none">
+                          <i class="fa fa-comment"></i>
+                          &nbsp; Discussion &nbsp;
+
+                          <span class="badge badge-pill badge-light">71</span>
+
+
+                      </a>
+
+                      <!-- exam-view411 -->
+                      <p class="card-text question-answer bg-light white-text" style="display: none;">
+                          <span class="correct-answer-box"><strong>Correct Answer:</strong>
+                              <span class="correct-answer">B</span>
+
+                              <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                                  class="vote-answer-button ml-1 d-print-none" data-toggle="tooltip" title=""
+                                  data-original-title="Vote an answer">🗳️</a>
+                              <br>
+                          </span>
+
+                          <span class="answer-description">
+                              You need to catch the triggered event, so move the photo processing to an Azure
+                              Function triggered from the blob upload.<br>Note: Azure Storage events allow
+                              applications to react to events. Common Blob storage event scenarios include
+                              image or video processing, search indexing, or any file-oriented
+                              workflow.<br>Events are pushed using Azure Event Grid to subscribers such as
+                              Azure Functions, Azure Logic Apps, or even to your own http
+                              listener.<br>However, the processing must start in less than one
+                              minute.<br>Note: Only storage accounts of kind StorageV2 (general purpose v2)
+                              and BlobStorage support event integration. Storage (general purpose v1) does not
+                              support integration with Event
+                              Grid.<br>Reference:<br>https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-event-overview
+                          </span>
+                      </p>
+                      <!-- exam-view412 -->
+
+
+                  </div>
+              </div>
+              <!-- / Question  -->
+
+
+
+
+              <!-- exam-view48 -->
+              <!-- Question -->
+              <div class="card exam-question-card">
+                  <div class="card-header text-white bg-primary">
+                      Question #5
+                      <span class="question-title-topic pull-right">
+                          Topic 2
+                      </span>
+                  </div>
+                  <div class="card-body question-body" data-id="816266">
+                      <p class="card-text">
+
+
+                          Note: This question is part of a series of questions that present the same scenario.
+                          Each question in the series contains a unique solution that might meet the stated
+                          goals. Some question sets might have more than one correct solution, while others
+                          might not have a correct solution.<br>After you answer a question in this section,
+                          you will NOT be able to return to it. As a result, these questions will not appear
+                          in the review screen.<br>You develop and deploy an Azure App Service API app to a
+                          Windows-hosted deployment slot named Development. You create additional deployment
+                          slots named Testing and Production. You enable auto swap on the Production
+                          deployment slot.<br>You need to ensure that scripts run and resources are available
+                          before a swap operation occurs.<br>Solution: Update the web.config file to include
+                          the applicationInitialization configuration element. Specify custom initialization
+                          actions to run the scripts.<br>Does the solution meet the goal?<br>
+
+                      </p>
+                      <!-- exam-view49 -->
+
+                      <div class="question-choices-container">
+                          <div class="voted-answers-tally d-none">
+
+                              <script id="816266"
+                                  type="application/json">[{"voted_answers": "B", "vote_count": 39, "is_most_voted": true}, {"voted_answers": "A", "vote_count": 12, "is_most_voted": false}]</script>
+
+                          </div>
+                          <ul>
+
+                              <li class="multi-choice-item correct-hidden">
+
+                                  <span class="multi-choice-letter" data-choice-letter="A">
+                                      A.
+                                  </span>
+
+                                  No
+                              </li>
+
+                              <li class="multi-choice-item">
+
+                                  <span class="multi-choice-letter" data-choice-letter="B">
+                                      B.
+                                  </span>
+
+                                  Yes
+                                  <span class="badge badge-success most-voted-answer-badge" title=""
+                                      style="display: none;"
+                                      data-original-title="This answer is currently the most voted for in the discussion">
+                                      Most Voted
+                                  </span>
+                              </li>
+
+                          </ul>
+                      </div>
+
+                      <!-- exam-view410 -->
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary reveal-solution d-print-none">Reveal Solution</a>
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary hide-solution d-print-none d-none">Hide Solution</a>
+
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-secondary question-discussion-button d-print-none">
+                          <i class="fa fa-comment"></i>
+                          &nbsp; Discussion &nbsp;
+
+                          <span class="badge badge-pill badge-light">34</span>
+
+
+                      </a>
+
+                      <!-- exam-view411 -->
+                      <p class="card-text question-answer bg-light white-text" style="display: none;">
+                          <span class="correct-answer-box"><strong>Correct Answer:</strong>
+                              <span class="correct-answer">A</span>
+
+                              <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                                  class="vote-answer-button ml-1 d-print-none" data-toggle="tooltip" title=""
+                                  data-original-title="Vote an answer">🗳️</a>
+                              <br>
+                          </span>
+
+                          <span class="answer-description">
+                              Specify custom warm-up.<br>Some apps might require custom warm-up actions before
+                              the swap. The applicationInitialization configuration element in web.config lets
+                              you specify custom initialization actions. The swap operation waits for this
+                              custom warm-up to finish before swapping with the target slot. Here's a sample
+                              web.config
+                              fragment.<br>&lt;system.webServer&gt;<br>&lt;applicationInitialization&gt;<br>&lt;add
+                              initializationPage="/" hostName="[app hostname]" /&gt;<br>&lt;add
+                              initializationPage="/Home/About" hostName="[app hostname]"
+                              /&gt;<br>&lt;/applicationInitialization&gt;<br>&lt;/system.webServer&gt;<br>Reference:<br>https://docs.microsoft.com/en-us/azure/app-service/deploy-staging-slots#troubleshoot-swaps
+                          </span>
+                      </p>
+                      <!-- exam-view412 -->
+
+
+                  </div>
+              </div>
+              <!-- / Question  -->
+
+
+
+
+              <!-- exam-view48 -->
+              <!-- Question -->
+              <div class="card exam-question-card">
+                  <div class="card-header text-white bg-primary">
+                      Question #6
+                      <span class="question-title-topic pull-right">
+                          Topic 2
+                      </span>
+                  </div>
+                  <div class="card-body question-body" data-id="816267">
+                      <p class="card-text">
+
+
+                          Note: This question is part of a series of questions that present the same scenario.
+                          Each question in the series contains a unique solution that might meet the stated
+                          goals. Some question sets might have more than one correct solution, while others
+                          might not have a correct solution.<br>After you answer a question in this section,
+                          you will NOT be able to return to it. As a result, these questions will not appear
+                          in the review screen.<br>You develop and deploy an Azure App Service API app to a
+                          Windows-hosted deployment slot named Development. You create additional deployment
+                          slots named Testing and Production. You enable auto swap on the Production
+                          deployment slot.<br>You need to ensure that scripts run and resources are available
+                          before a swap operation occurs.<br>Solution: Enable auto swap for the Testing slot.
+                          Deploy the app to the Testing slot.<br>Does the solution meet the goal?<br>
+
+                      </p>
+                      <!-- exam-view49 -->
+
+                      <div class="question-choices-container">
+                          <div class="voted-answers-tally d-none">
+
+                              <script id="816267"
+                                  type="application/json">[{"voted_answers": "A", "vote_count": 25, "is_most_voted": true}, {"voted_answers": "B", "vote_count": 10, "is_most_voted": false}]</script>
+
+                          </div>
+                          <ul>
+
+                              <li class="multi-choice-item">
+
+                                  <span class="multi-choice-letter" data-choice-letter="A">
+                                      A.
+                                  </span>
+
+                                  No
+                                  <span class="badge badge-success most-voted-answer-badge" title=""
+                                      style="display: none;"
+                                      data-original-title="This answer is currently the most voted for in the discussion">
+                                      Most Voted
+                                  </span>
+                              </li>
+
+                              <li class="multi-choice-item correct-hidden">
+
+                                  <span class="multi-choice-letter" data-choice-letter="B">
+                                      B.
+                                  </span>
+
+                                  Yes
+                              </li>
+
+                          </ul>
+                      </div>
+
+                      <!-- exam-view410 -->
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary reveal-solution d-print-none">Reveal Solution</a>
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary hide-solution d-print-none d-none">Hide Solution</a>
+
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-secondary question-discussion-button d-print-none">
+                          <i class="fa fa-comment"></i>
+                          &nbsp; Discussion &nbsp;
+
+                          <span class="badge badge-pill badge-light">30</span>
+
+
+                      </a>
+
+                      <!-- exam-view411 -->
+                      <p class="card-text question-answer bg-light white-text" style="display: none;">
+                          <span class="correct-answer-box"><strong>Correct Answer:</strong>
+                              <span class="correct-answer">B</span>
+
+                              <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                                  class="vote-answer-button ml-1 d-print-none" data-toggle="tooltip" title=""
+                                  data-original-title="Vote an answer">🗳️</a>
+                              <br>
+                          </span>
+
+                          <span class="answer-description">
+                              Instead update the web.config file to include the applicationInitialization
+                              configuration element. Specify custom initialization actions to run the
+                              scripts.<br>Note: Some apps might require custom warm-up actions before the
+                              swap. The applicationInitialization configuration element in web.config lets you
+                              specify custom initialization actions. The swap operation waits for this custom
+                              warm-up to finish before swapping with the target slot. Here's a sample
+                              web.config
+                              fragment.<br>&lt;system.webServer&gt;<br>&lt;applicationInitialization&gt;<br>&lt;add
+                              initializationPage="/" hostName="[app hostname]" /&gt;<br>&lt;add
+                              initializationPage="/Home/About" hostName="[app hostname]"
+                              /&gt;<br>&lt;/applicationInitialization&gt;<br>&lt;/system.webServer&gt;<br>Reference:<br>https://docs.microsoft.com/en-us/azure/app-service/deploy-staging-slots#troubleshoot-swaps
+                          </span>
+                      </p>
+                      <!-- exam-view412 -->
+
+
+                  </div>
+              </div>
+              <!-- / Question  -->
+
+
+
+
+              <!-- exam-view48 -->
+              <!-- Question -->
+              <div class="card exam-question-card">
+                  <div class="card-header text-white bg-primary">
+                      Question #7
+                      <span class="question-title-topic pull-right">
+                          Topic 2
+                      </span>
+                  </div>
+                  <div class="card-body question-body" data-id="816268">
+                      <p class="card-text">
+
+
+                          Note: This question is part of a series of questions that present the same scenario.
+                          Each question in the series contains a unique solution that might meet the stated
+                          goals. Some question sets might have more than one correct solution, while others
+                          might not have a correct solution.<br>After you answer a question in this section,
+                          you will NOT be able to return to it. As a result, these questions will not appear
+                          in the review screen.<br>You develop and deploy an Azure App Service API app to a
+                          Windows-hosted deployment slot named Development. You create additional deployment
+                          slots named Testing and Production. You enable auto swap on the Production
+                          deployment slot.<br>You need to ensure that scripts run and resources are available
+                          before a swap operation occurs.<br>Solution: Disable auto swap. Update the app with
+                          a method named statuscheck to run the scripts. Re-enable auto swap and deploy the
+                          app to the Production slot.<br>Does the solution meet the goal?<br>
+
+                      </p>
+                      <!-- exam-view49 -->
+
+                      <div class="question-choices-container">
+                          <div class="voted-answers-tally d-none">
+
+                              <script id="816268"
+                                  type="application/json">[{"voted_answers": "A", "vote_count": 28, "is_most_voted": true}, {"voted_answers": "B", "vote_count": 7, "is_most_voted": false}]</script>
+
+                          </div>
+                          <ul>
+
+                              <li class="multi-choice-item">
+
+                                  <span class="multi-choice-letter" data-choice-letter="A">
+                                      A.
+                                  </span>
+
+                                  No
+                                  <span class="badge badge-success most-voted-answer-badge" title=""
+                                      style="display: none;"
+                                      data-original-title="This answer is currently the most voted for in the discussion">
+                                      Most Voted
+                                  </span>
+                              </li>
+
+                              <li class="multi-choice-item correct-hidden">
+
+                                  <span class="multi-choice-letter" data-choice-letter="B">
+                                      B.
+                                  </span>
+
+                                  Yes
+                              </li>
+
+                          </ul>
+                      </div>
+
+                      <!-- exam-view410 -->
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary reveal-solution d-print-none">Reveal Solution</a>
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary hide-solution d-print-none d-none">Hide Solution</a>
+
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-secondary question-discussion-button d-print-none">
+                          <i class="fa fa-comment"></i>
+                          &nbsp; Discussion &nbsp;
+
+                          <span class="badge badge-pill badge-light">25</span>
+
+
+                      </a>
+
+                      <!-- exam-view411 -->
+                      <p class="card-text question-answer bg-light white-text" style="display: none;">
+                          <span class="correct-answer-box"><strong>Correct Answer:</strong>
+                              <span class="correct-answer">B</span>
+
+                              <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                                  class="vote-answer-button ml-1 d-print-none" data-toggle="tooltip" title=""
+                                  data-original-title="Vote an answer">🗳️</a>
+                              <br>
+                          </span>
+
+                          <span class="answer-description">
+                              Instead update the web.config file to include the applicationInitialization
+                              configuration element. Specify custom initialization actions to run the
+                              scripts.<br>Note: Some apps might require custom warm-up actions before the
+                              swap. The applicationInitialization configuration element in web.config lets you
+                              specify custom initialization actions. The swap operation waits for this custom
+                              warm-up to finish before swapping with the target slot. Here's a sample
+                              web.config
+                              fragment.<br>&lt;system.webServer&gt;<br>&lt;applicationInitialization&gt;<br>&lt;add
+                              initializationPage="/" hostName="[app hostname]" /&gt;<br>&lt;add
+                              initializationPage="/Home/About" hostName="[app hostname]"
+                              /&gt;<br>&lt;/applicationInitialization&gt;<br>&lt;/system.webServer&gt;<br>Reference:<br>https://docs.microsoft.com/en-us/azure/app-service/deploy-staging-slots#troubleshoot-swaps
+                          </span>
+                      </p>
+                      <!-- exam-view412 -->
+
+
+                  </div>
+              </div>
+              <!-- / Question  -->
+
+
+
+
+              <!-- exam-view48 -->
+              <!-- Question -->
+              <div class="card exam-question-card">
+                  <div class="card-header text-white bg-primary">
+                      Question #8
+                      <span class="question-title-topic pull-right">
+                          Topic 2
+                      </span>
+                  </div>
+                  <div class="card-body question-body" data-id="816269">
+                      <p class="card-text">
+
+
+                          Note: This question is part of a series of questions that present the same scenario.
+                          Each question in the series contains a unique solution that might meet the stated
+                          goals. Some question sets might have more than one correct solution, while others
+                          might not have a correct solution.<br>After you answer a question in this section,
+                          you will NOT be able to return to it. As a result, these questions will not appear
+                          in the review screen.<br>You develop a software as a service (SaaS) offering to
+                          manage photographs. Users upload photos to a web service which then stores the
+                          photos in Azure<br>Storage Blob storage. The storage account type is General-purpose
+                          V2.<br>When photos are uploaded, they must be processed to produce and save a
+                          mobile-friendly version of the image. The process to produce a mobile-friendly
+                          version of the image must start in less than one minute.<br>You need to design the
+                          process that starts the photo processing.<br>Solution: Convert the Azure Storage
+                          account to a BlockBlobStorage storage account.<br>Does the solution meet the
+                          goal?<br>
+
+                      </p>
+                      <!-- exam-view49 -->
+
+                      <div class="question-choices-container">
+                          <div class="voted-answers-tally d-none">
+
+                              <script id="816269"
+                                  type="application/json">[{"voted_answers": "B", "vote_count": 11, "is_most_voted": true}, {"voted_answers": "A", "vote_count": 1, "is_most_voted": false}]</script>
+
+                          </div>
+                          <ul>
+
+                              <li class="multi-choice-item">
+
+                                  <span class="multi-choice-letter" data-choice-letter="A">
+                                      A.
+                                  </span>
+
+                                  Yes
+                              </li>
+
+                              <li class="multi-choice-item correct-hidden">
+
+                                  <span class="multi-choice-letter" data-choice-letter="B">
+                                      B.
+                                  </span>
+
+                                  No
+                                  <span class="badge badge-success most-voted-answer-badge" title=""
+                                      style="display: none;"
+                                      data-original-title="This answer is currently the most voted for in the discussion">
+                                      Most Voted
+                                  </span>
+                              </li>
+
+                          </ul>
+                      </div>
+
+                      <!-- exam-view410 -->
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary reveal-solution d-print-none">Reveal Solution</a>
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary hide-solution d-print-none d-none">Hide Solution</a>
+
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-secondary question-discussion-button d-print-none">
+                          <i class="fa fa-comment"></i>
+                          &nbsp; Discussion &nbsp;
+
+                          <span class="badge badge-pill badge-light">29</span>
+
+
+                      </a>
+
+                      <!-- exam-view411 -->
+                      <p class="card-text question-answer bg-light white-text" style="display: none;">
+                          <span class="correct-answer-box"><strong>Correct Answer:</strong>
+                              <span class="correct-answer">B</span>
+
+                              <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                                  class="vote-answer-button ml-1 d-print-none" data-toggle="tooltip" title=""
+                                  data-original-title="Vote an answer">🗳️</a>
+                              <br>
+                          </span>
+
+                          <span class="answer-description">
+                              Not necessary to convert the account, instead move photo processing to an Azure
+                              Function triggered from the blob upload..<br>Azure Storage events allow
+                              applications to react to events. Common Blob storage event scenarios include
+                              image or video processing, search indexing, or any file- oriented
+                              workflow.<br>Note: Only storage accounts of kind StorageV2 (general purpose v2)
+                              and BlobStorage support event integration. Storage (general purpose v1) does not
+                              support integration with Event
+                              Grid.<br>Reference:<br>https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-event-overview
+                          </span>
+                      </p>
+                      <!-- exam-view412 -->
+
+
+                  </div>
+              </div>
+              <!-- / Question  -->
+
+
+
+
+              <!-- exam-view48 -->
+              <!-- Question -->
+              <div class="card exam-question-card">
+                  <div class="card-header text-white bg-primary">
+                      Question #9
+                      <span class="question-title-topic pull-right">
+                          Topic 2
+                      </span>
+                  </div>
+                  <div class="card-body question-body" data-id="816270">
+                      <p class="card-text">
+
+
+                          HOTSPOT -<br>You are developing an Azure Web App. You configure TLS mutual
+                          authentication for the web app.<br>You need to validate the client certificate in
+                          the web app. To answer, select the appropriate options in the answer area.<br>NOTE:
+                          Each correct selection is worth one point.<br>Hot Area:<br><img
+                              src="./p5_files/0010000001.jpg" class="in-exam-image"><br>
+
+                      </p>
+                      <!-- exam-view49 -->
+
+                      <!-- exam-view410 -->
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary reveal-solution d-print-none">Reveal Solution</a>
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary hide-solution d-print-none d-none">Hide Solution</a>
+
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-secondary question-discussion-button d-print-none">
+                          <i class="fa fa-comment"></i>
+                          &nbsp; Discussion &nbsp;
+
+                          <span class="badge badge-pill badge-light">29</span>
+
+
+                      </a>
+
+                      <!-- exam-view411 -->
+                      <p class="card-text question-answer bg-light white-text" style="display: none;">
+                          <span class="correct-answer-box"><strong>Correct Answer:</strong>
+                              <span class="correct-answer"><img src="./p5_files/0010100001.jpg"
+                                      class="in-exam-image"></span>
+                              <br>
+                          </span>
+
+                          <span class="answer-description">
+                              Accessing the client certificate from App Service.<br>If you are using ASP.NET
+                              and configure your app to use client certificate authentication, the certificate
+                              will be available through the HttpRequest.ClientCertificate property. For other
+                              application stacks, the client cert will be available in your app through a
+                              base64 encoded value in the "X-ARR-ClientCert" request header. Your application
+                              can create a certificate from this value and then use it for authentication and
+                              authorization purposes in your
+                              application.<br>Reference:<br>https://docs.microsoft.com/en-us/azure/app-service/app-service-web-configure-tls-mutual-auth
+                          </span>
+                      </p>
+                      <!-- exam-view412 -->
+
+
+                  </div>
+              </div>
+              <!-- / Question  -->
+
+
+
+
+              <!-- exam-view48 -->
+              <!-- Question -->
+              <div class="card exam-question-card">
+                  <div class="card-header text-white bg-primary">
+                      Question #10
+                      <span class="question-title-topic pull-right">
+                          Topic 2
+                      </span>
+                  </div>
+                  <div class="card-body question-body" data-id="816271">
+                      <p class="card-text">
+
+
+                          DRAG DROP -<br>You are developing a Docker/Go using Azure App Service Web App for
+                          Containers. You plan to run the container in an App Service on Linux. You identify
+                          a<br>Docker container image to use.<br>None of your current resource groups reside
+                          in a location that supports Linux. You must minimize the number of resource groups
+                          required.<br>You need to create the application and perform an initial
+                          deployment.<br>Which three Azure CLI commands should you use to develop the
+                          solution? To answer, move the appropriate commands from the list of commands to the
+                          answer area and arrange them in the correct order.<br>Select and Place:<br><img
+                              src="./p5_files/0010200001.png" class="in-exam-image"><br>
+
+                      </p>
+                      <!-- exam-view49 -->
+
+                      <!-- exam-view410 -->
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary reveal-solution d-print-none">Reveal Solution</a>
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary hide-solution d-print-none d-none">Hide Solution</a>
+
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-secondary question-discussion-button d-print-none">
+                          <i class="fa fa-comment"></i>
+                          &nbsp; Discussion &nbsp;
+
+                          <span class="badge badge-pill badge-light">56</span>
+
+
+                      </a>
+
+                      <!-- exam-view411 -->
+                      <p class="card-text question-answer bg-light white-text" style="display: none;">
+                          <span class="correct-answer-box"><strong>Correct Answer:</strong>
+                              <span class="correct-answer"><img src="./p5_files/0010300001.png"
+                                      class="in-exam-image"></span>
+                              <br>
+                          </span>
+
+                          <span class="answer-description">
+                              You can host native Linux applications in the cloud by using Azure Web Apps. To
+                              create a Web App for Containers, you must run Azure CLI commands that create a
+                              group, then a service plan, and finally the web app itself.<br><br>Step 1: az
+                              group create -<br>In the Cloud Shell, create a resource group with the az group
+                              create command.<br>Step 2: az appservice plan create<br>In the Cloud Shell,
+                              create an App Service plan in the resource group with the az appservice plan
+                              create command.<br><br>Step 3: az webapp create -<br>In the Cloud Shell, create
+                              a web app in the myAppServicePlan App Service plan with the az webapp create
+                              command. Don't forget to replace with a unique app name, and &lt;docker-ID&gt;
+                              with your Docker
+                              ID.<br>Reference:<br>https://docs.microsoft.com/mt-mt/azure/app-service/containers/quickstart-docker-go?view=sql-server-ver15
+                          </span>
+                      </p>
+                      <!-- exam-view412 -->
+
+
+                  </div>
+              </div>
+              <!-- / Question  -->
+
+
+
+
+              <!-- exam-view48 -->
+              <!-- Question -->
+              <div class="card exam-question-card">
+                  <div class="card-header text-white bg-primary">
+                      Question #11
+                      <span class="question-title-topic pull-right">
+                          Topic 2
+                      </span>
+                  </div>
+                  <div class="card-body question-body" data-id="816272">
+                      <p class="card-text">
+
+
+                          DRAG DROP -<br>Fourth Coffee has an ASP.NET Core web app that runs in Docker. The
+                          app is mapped to the www.fourthcoffee.com domain.<br>Fourth Coffee is migrating this
+                          application to Azure.<br>You need to provision an App Service Web App to host this
+                          docker image and map the custom domain to the App Service web app.<br>A resource
+                          group named FourthCoffeePublicWebResourceGroup has been created in the WestUS region
+                          that contains an App Service Plan named<br>AppServiceLinuxDockerPlan.<br>Which order
+                          should the CLI commands be used to develop the solution? To answer, move all of the
+                          Azure CLI commands from the list of commands to the answer area and arrange them in
+                          the correct order.<br>Select and Place:<br><img src="./p5_files/0010500001.jpg"
+                              class="in-exam-image"><br>
+
+                      </p>
+                      <!-- exam-view49 -->
+
+                      <!-- exam-view410 -->
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary reveal-solution d-print-none">Reveal Solution</a>
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary hide-solution d-print-none d-none">Hide Solution</a>
+
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-secondary question-discussion-button d-print-none">
+                          <i class="fa fa-comment"></i>
+                          &nbsp; Discussion &nbsp;
+
+                          <span class="badge badge-pill badge-light">37</span>
+
+
+                      </a>
+
+                      <!-- exam-view411 -->
+                      <p class="card-text question-answer bg-light white-text" style="display: none;">
+                          <span class="correct-answer-box"><strong>Correct Answer:</strong>
+                              <span class="correct-answer"><img src="./p5_files/0010600001.jpg"
+                                      class="in-exam-image"></span>
+                              <br>
+                          </span>
+
+                          <span class="answer-description">
+                              Step 1: #bin/bash -<br>The appName is used when the webapp-name is created in
+                              step 2.<br><br>Step 2: az webapp create -<br>Create a web app. In the Cloud
+                              Shell, create a web app in the myAppServicePlan App Service plan with the az
+                              webapp create command.<br>Step 3: az webapp config container set<br>In Create a
+                              web app, you specified an image on Docker Hub in the az webapp create command.
+                              This is good enough for a public image. To use a private image, you need to
+                              configure your Docker account ID and password in your Azure web app.<br>Step 4:
+                              az webapp config hostname add<br>The webapp-name is used when the webapp is
+                              created in step 2.<br>In the Cloud Shell, follow the az webapp create command
+                              with az webapp config container
+                              set.<br>Reference:<br>https://docs.microsoft.com/en-us/azure/app-service/containers/tutorial-custom-docker-image
+                              https://docs.microsoft.com/en-us/azure/app-service/tutorial-custom-container?pivots=container-linux
+                              https://docs.microsoft.com/en-us/azure/app-service/scripts/cli-configure-custom-domain
+                          </span>
+                      </p>
+                      <!-- exam-view412 -->
+
+
+                  </div>
+              </div>
+              <!-- / Question  -->
+
+
+
+
+              <!-- exam-view48 -->
+              <!-- Question -->
+              <div class="card exam-question-card">
+                  <div class="card-header text-white bg-primary">
+                      Question #12
+                      <span class="question-title-topic pull-right">
+                          Topic 2
+                      </span>
+                  </div>
+                  <div class="card-body question-body" data-id="816273">
+                      <p class="card-text">
+
+
+                          DRAG DROP -<br>You are developing a serverless Java application on Azure. You create
+                          a new Azure Key Vault to work with secrets from a new Azure Functions
+                          application.<br>The application must meet the following requirements:<br>✑ Reference
+                          the Azure Key Vault without requiring any changes to the Java code.<br>✑ Dynamically
+                          add and remove instances of the Azure Functions host based on the number of incoming
+                          application events.<br>✑ Ensure that instances are perpetually warm to avoid any
+                          cold starts.<br>✑ Connect to a VNet.<br>✑ Authentication to the Azure Key Vault
+                          instance must be removed if the Azure Function application is deleted.<br>You need
+                          to grant the Azure Functions application access to the Azure Key Vault.<br>Which
+                          three actions should you perform in sequence? To answer, move the appropriate
+                          actions from the list of actions to the answer area and arrange them in the correct
+                          order.<br>Select and Place:<br><img src="./p5_files/0010800001.png"
+                              class="in-exam-image"><br>
+
+                      </p>
+                      <!-- exam-view49 -->
+
+                      <!-- exam-view410 -->
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary reveal-solution d-print-none">Reveal Solution</a>
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary hide-solution d-print-none d-none">Hide Solution</a>
+
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-secondary question-discussion-button d-print-none">
+                          <i class="fa fa-comment"></i>
+                          &nbsp; Discussion &nbsp;
+
+                          <span class="badge badge-pill badge-light">50</span>
+
+
+                      </a>
+
+                      <!-- exam-view411 -->
+                      <p class="card-text question-answer bg-light white-text" style="display: none;">
+                          <span class="correct-answer-box"><strong>Correct Answer:</strong>
+                              <span class="correct-answer"><img src="./p5_files/0010900001.png"
+                                      class="in-exam-image"></span>
+                              <br>
+                          </span>
+
+                          <span class="answer-description">
+                              Step 1: Create the Azure Functions app with a Consumption plan type.<br>Use the
+                              Consumption plan for serverless.<br>Step 2: Create a system-assigned managed
+                              identity for the application.<br>Create a system-assigned managed identity for
+                              your application.<br>Key Vault references currently only support system-assigned
+                              managed identities. User-assigned identities cannot be used.<br>Step 3: Create
+                              an access policy in Key Vault for the application identity.<br>Create an access
+                              policy in Key Vault for the application identity you created earlier. Enable the
+                              "Get" secret permission on this policy. Do not configure the<br>"authorized
+                              application" or applicationId settings, as this is not compatible with a managed
+                              identity.<br>Reference:<br>https://docs.microsoft.com/en-us/azure/app-service/app-service-key-vault-references
+                          </span>
+                      </p>
+                      <!-- exam-view412 -->
+
+
+                  </div>
+              </div>
+              <!-- / Question  -->
+
+
+
+
+              <!-- exam-view48 -->
+              <!-- Question -->
+              <div class="card exam-question-card">
+                  <div class="card-header text-white bg-primary">
+                      Question #13
+                      <span class="question-title-topic pull-right">
+                          Topic 2
+                      </span>
+                  </div>
+                  <div class="card-body question-body" data-id="816274">
+                      <p class="card-text">
+
+
+                          You develop a website. You plan to host the website in Azure. You expect the website
+                          to experience high traffic volumes after it is published.<br>You must ensure that
+                          the website remains available and responsive while minimizing cost.<br>You need to
+                          deploy the website.<br>What should you do?<br>
+
+                      </p>
+                      <!-- exam-view49 -->
+
+                      <div class="question-choices-container">
+                          <div class="voted-answers-tally d-none">
+
+                              <script id="816274"
+                                  type="application/json">[{"voted_answers": "D", "vote_count": 34, "is_most_voted": true}]</script>
+
+                          </div>
+                          <ul>
+
+                              <li class="multi-choice-item">
+
+                                  <span class="multi-choice-letter" data-choice-letter="A">
+                                      A.
+                                  </span>
+
+                                  Deploy the website to a virtual machine. Configure the virtual machine to
+                                  automatically scale when the CPU load is high.
+                              </li>
+
+                              <li class="multi-choice-item">
+
+                                  <span class="multi-choice-letter" data-choice-letter="B">
+                                      B.
+                                  </span>
+
+                                  Deploy the website to an App Service that uses the Shared service tier.
+                                  Configure the App Service plan to automatically scale when the CPU load is
+                                  high.
+                              </li>
+
+                              <li class="multi-choice-item">
+
+                                  <span class="multi-choice-letter" data-choice-letter="C">
+                                      C.
+                                  </span>
+
+                                  Deploy the website to a virtual machine. Configure a Scale Set to increase
+                                  the virtual machine instance count when the CPU load is high.
+                              </li>
+
+                              <li class="multi-choice-item correct-hidden">
+
+                                  <span class="multi-choice-letter" data-choice-letter="D">
+                                      D.
+                                  </span>
+
+                                  Deploy the website to an App Service that uses the Standard service tier.
+                                  Configure the App Service plan to automatically scale when the CPU load is
+                                  high.
+                                  <span class="badge badge-success most-voted-answer-badge" title=""
+                                      style="display: none;"
+                                      data-original-title="This answer is currently the most voted for in the discussion">
+                                      Most Voted
+                                  </span>
+                              </li>
+
+                          </ul>
+                      </div>
+
+                      <!-- exam-view410 -->
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary reveal-solution d-print-none">Reveal Solution</a>
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary hide-solution d-print-none d-none">Hide Solution</a>
+
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-secondary question-discussion-button d-print-none">
+                          <i class="fa fa-comment"></i>
+                          &nbsp; Discussion &nbsp;
+
+                          <span class="badge badge-pill badge-light">52</span>
+
+
+                      </a>
+
+                      <!-- exam-view411 -->
+                      <p class="card-text question-answer bg-light white-text" style="display: none;">
+                          <span class="correct-answer-box"><strong>Correct Answer:</strong>
+                              <span class="correct-answer">D</span>
+
+                              <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                                  class="vote-answer-button ml-1 d-print-none" data-toggle="tooltip" title=""
+                                  data-original-title="Vote an answer">🗳️</a>
+                              <br>
+                          </span>
+
+                          <span class="answer-description">
+                              Windows Azure Web Sites (WAWS) offers 3 modes: Standard, Free, and
+                              Shared.<br>Standard mode carries an enterprise-grade SLA (Service Level
+                              Agreement) of 99.9% monthly, even for sites with just one instance.<br>Standard
+                              mode runs on dedicated instances, making it different from the other ways to buy
+                              Windows Azure Web Sites.<br>Incorrect Answers:<br>B: Shared and Free modes do
+                              not offer the scaling flexibility of Standard, and they have some important
+                              limits.<br>Shared mode, just as the name states, also uses shared Compute
+                              resources, and also has a CPU limit. So, while neither Free nor Shared is likely
+                              to be the best choice for your production environment due to these limits.
+                          </span>
+                      </p>
+                      <!-- exam-view412 -->
+
+
+                  </div>
+              </div>
+              <!-- / Question  -->
+
+
+              <!-- exam-view413 -->
+          </div>
+
+
+      </div>
+
+      <div class="col-6">
+          <div class="questions-container">
+
+
+
+
+              <!-- exam-view48 -->
+              <!-- Question -->
+              <div class="card exam-question-card">
+                  <div class="card-header text-white bg-primary">
+                      Pregunta #4
+                      <span class="question-title-topic pull-right">
+                          Tema 2
+                      </span>
+                  </div>
+                  <div class="card-body question-body" data-id="816265">
+                      <p class="card-text">
+
+                          Nota: Esta pregunta es parte de una serie de preguntas que presentan el mismo
+                          escenario. Cada pregunta en la serie contiene una solución única que podría cumplir
+                          con los objetivos establecidos. Algunos conjuntos de preguntas podrían tener más de
+                          una solución correcta, mientras que otros podrían no tener una solución
+                          correcta.<br>Después de responder una pregunta en esta sección, NO podrás volver a
+                          ella. Como resultado, estas preguntas no aparecerán en la pantalla de
+                          revisión.<br>Desarrollas una oferta de software como servicio (SaaS) para gestionar
+                          fotografías. Los usuarios cargan fotos a un servicio web que luego almacena las
+                          fotos en Azure Storage Blob storage. El tipo de cuenta de almacenamiento es
+                          General-purpose V2.<br>Cuando se cargan las fotos, deben procesarse para producir y
+                          guardar una versión compatible con dispositivos móviles de la imagen. El proceso
+                          para producir una versión compatible con dispositivos móviles de la imagen debe
+                          iniciarse en menos de un minuto.<br>Necesitas diseñar el proceso que inicie el
+                          procesamiento de fotos.<br>Solución: Desencadenar el procesamiento de fotos desde
+                          los eventos de Blob storage.<br>¿Cumple la solución con el objetivo?<br>
+
+                      </p>
+                      <!-- exam-view49 -->
+
+                      <div class="question-choices-container">
+                          <div class="voted-answers-tally d-none">
+
+                              <script id="816265"
+                                  type="application/json">[{"voted_answers": "B", "vote_count": 6, "is_most_voted": true}, {"voted_answers": "A", "vote_count": 5, "is_most_voted": false}]</script>
+
+                          </div>
+                          <ul>
+
+                              <li class="multi-choice-item">
+
+                                  <span class="multi-choice-letter" data-choice-letter="A">
+                                      A.
+                                  </span>
+
+                                  Sí
+                              </li>
+
+                              <li class="multi-choice-item correct-hidden">
+
+                                  <span class="multi-choice-letter" data-choice-letter="B">
+                                      B.
+                                  </span>
+
+                                  No
+                                  <span class="badge badge-success most-voted-answer-badge" title=""
+                                      style="display: none;"
+                                      data-original-title="This answer is currently the most voted for in the discussion">
+                                      Más Votado
+                                  </span>
+                              </li>
+
+                          </ul>
+                      </div>
+
+                      <!-- exam-view410 -->
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary reveal-solution d-print-none">Mostrar Solución</a>
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary hide-solution d-print-none d-none">Ocultar Solución</a>
+
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-secondary question-discussion-button d-print-none">
+                          <i class="fa fa-comment"></i>
+                          &nbsp; Discusión &nbsp;
+
+                          <span class="badge badge-pill badge-light">71</span>
+
+
+                      </a>
+
+                      <!-- exam-view411 -->
+                      <p class="card-text question-answer bg-light white-text" style="display: none;">
+                          <span class="correct-answer-box"><strong>Respuesta Correcta:</strong>
+                              <span class="correct-answer">B</span>
+
+                              <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                                  class="vote-answer-button ml-1 d-print-none" data-toggle="tooltip" title=""
+                                  data-original-title="Votar una respuesta">🗳️</a>
+                              <br>
+                          </span>
+
+                          <span class="answer-description">
+                              Necesitas capturar el evento desencadenado, así que mueve el procesamiento de
+                              fotos a una Azure Function desencadenada desde la carga de blob.<br>Nota: Los
+                              eventos de almacenamiento de Azure permiten a las aplicaciones reaccionar a
+                              eventos. Los escenarios comunes de eventos de Blob storage incluyen
+                              procesamiento de imágenes o video, indexación de búsqueda o cualquier flujo de
+                              trabajo orientado a archivos.<br>Los eventos se envían mediante Azure Event Grid
+                              a suscriptores como Azure Functions, Azure Logic Apps o incluso a su propio
+                              escuchador http.<br>Sin embargo, el procesamiento debe iniciarse en menos de un
+                              minuto.<br>Nota: Solo las cuentas de almacenamiento del tipo StorageV2 (uso
+                              general v2) y BlobStorage admiten integración con eventos. Storage (uso general
+                              v1) no admite integración con Event
+                              Grid.<br>Referencia:<br>https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-event-overview
+                          </span>
+                      </p>
+                      <!-- exam-view412 -->
+
+
+                  </div>
+              </div>
+
+              <!-- / Question  -->
+
+
+
+
+              <!-- exam-view48 -->
+              <!-- Question -->
+              <div class="card exam-question-card">
+                  <div class="card-header text-white bg-primary">
+                      Pregunta #5
+                      <span class="question-title-topic pull-right">
+                          Tema 2
+                      </span>
+                  </div>
+                  <div class="card-body question-body" data-id="816266">
+                      <p class="card-text">
+
+                          Nota: Esta pregunta es parte de una serie de preguntas que presentan el mismo
+                          escenario. Cada pregunta en la serie contiene una solución única que podría cumplir
+                          con los objetivos establecidos. Algunos conjuntos de preguntas podrían tener más de
+                          una solución correcta, mientras que otros podrían no tener una solución
+                          correcta.<br>Después de responder una pregunta en esta sección, NO podrás volver a
+                          ella. Como resultado, estas preguntas no aparecerán en la pantalla de
+                          revisión.<br>Desarrollas y despliegas una aplicación API de Azure App Service en un
+                          espacio de implementación alojado en Windows llamado Desarrollo. Creas espacios de
+                          implementación adicionales llamados Pruebas y Producción. Habilitas el intercambio
+                          automático en el espacio de implementación Producción.<br>Necesitas asegurarte de
+                          que los scripts se ejecuten y los recursos estén disponibles antes de que ocurra una
+                          operación de intercambio.<br>Solución: Actualiza el archivo web.config para incluir
+                          el elemento de configuración applicationInitialization. Especifica acciones de
+                          inicialización personalizadas para ejecutar los scripts.<br>¿Cumple la solución con
+                          el objetivo?<br>
+
+                      </p>
+                      <!-- exam-view49 -->
+
+                      <div class="question-choices-container">
+                          <div class="voted-answers-tally d-none">
+
+                              <script id="816266"
+                                  type="application/json">[{"voted_answers": "B", "vote_count": 39, "is_most_voted": true}, {"voted_answers": "A", "vote_count": 12, "is_most_voted": false}]</script>
+
+                          </div>
+                          <ul>
+
+                              <li class="multi-choice-item correct-hidden">
+
+                                  <span class="multi-choice-letter" data-choice-letter="A">
+                                      A.
+                                  </span>
+
+                                  No
+                              </li>
+
+                              <li class="multi-choice-item">
+
+                                  <span class="multi-choice-letter" data-choice-letter="B">
+                                      B.
+                                  </span>
+
+                                  Sí
+                                  <span class="badge badge-success most-voted-answer-badge" title=""
+                                      style="display: none;"
+                                      data-original-title="This answer is currently the most voted for in the discussion">
+                                      Más Votado
+                                  </span>
+                              </li>
+
+                          </ul>
+                      </div>
+
+                      <!-- exam-view410 -->
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary reveal-solution d-print-none">Mostrar Solución</a>
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary hide-solution d-print-none d-none">Ocultar Solución</a>
+
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-secondary question-discussion-button d-print-none">
+                          <i class="fa fa-comment"></i>
+                          &nbsp; Discusión &nbsp;
+
+                          <span class="badge badge-pill badge-light">34</span>
+
+
+                      </a>
+
+                      <!-- exam-view411 -->
+                      <p class="card-text question-answer bg-light white-text" style="display: none;">
+                          <span class="correct-answer-box"><strong>Respuesta Correcta:</strong>
+                              <span class="correct-answer">A</span>
+
+                              <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                                  class="vote-answer-button ml-1 d-print-none" data-toggle="tooltip" title=""
+                                  data-original-title="Votar una respuesta">🗳️</a>
+                              <br>
+                          </span>
+
+                          <span class="answer-description">
+                              Especifica la inicialización personalizada.<br>Algunas aplicaciones pueden
+                              requerir acciones de precalentamiento personalizadas antes del intercambio. El
+                              elemento de configuración applicationInitialization en el archivo web.config te
+                              permite especificar acciones de inicialización personalizadas. La operación de
+                              intercambio espera a que este precalentamiento personalizado finalice antes de
+                              intercambiar con el espacio de implementación de destino. Aquí tienes un
+                              fragmento de web.config de
+                              muestra.<br>&lt;system.webServer&gt;<br>&lt;applicationInitialization&gt;<br>&lt;add
+                              initializationPage="/" hostName="[nombre del host de la aplicación]"
+                              /&gt;<br>&lt;add initializationPage="/Home/About" hostName="[nombre del host de
+                              la aplicación]"
+                              /&gt;<br>&lt;/applicationInitialization&gt;<br>&lt;/system.webServer&gt;<br>Referencia:<br>https://docs.microsoft.com/en-us/azure/app-service/deploy-staging-slots#troubleshoot-swaps
+                          </span>
+                      </p>
+                      <!-- exam-view412 -->
+
+
+                  </div>
+              </div>
+
+              <!-- / Question  -->
+
+
+
+
+              <!-- exam-view48 -->
+              <!-- Question -->
+              <div class="card exam-question-card">
+                  <div class="card-header text-white bg-primary">
+                      Pregunta #6
+                      <span class="question-title-topic pull-right">
+                          Tema 2
+                      </span>
+                  </div>
+                  <div class="card-body question-body" data-id="816267">
+                      <p class="card-text">
+
+                          Nota: Esta pregunta es parte de una serie de preguntas que presentan el mismo
+                          escenario. Cada pregunta en la serie contiene una solución única que podría cumplir
+                          con los objetivos establecidos. Algunos conjuntos de preguntas podrían tener más de
+                          una solución correcta, mientras que otros podrían no tener una solución
+                          correcta.<br>Después de responder una pregunta en esta sección, NO podrás volver a
+                          ella. Como resultado, estas preguntas no aparecerán en la pantalla de
+                          revisión.<br>Desarrollas y despliegas una aplicación API de Azure App Service en un
+                          espacio de implementación alojado en Windows llamado Desarrollo. Creas espacios de
+                          implementación adicionales llamados Pruebas y Producción. Habilitas el intercambio
+                          automático en el espacio de implementación Producción.<br>Necesitas asegurarte de
+                          que los scripts se ejecuten y los recursos estén disponibles antes de que ocurra una
+                          operación de intercambio.<br>Solución: Habilita el intercambio automático para el
+                          espacio de implementación Pruebas. Despliega la aplicación en el espacio de
+                          implementación Pruebas.<br>¿Cumple la solución con el objetivo?<br>
+
+                      </p>
+                      <!-- exam-view49 -->
+
+                      <div class="question-choices-container">
+                          <div class="voted-answers-tally d-none">
+
+                              <script id="816267"
+                                  type="application/json">[{"voted_answers": "A", "vote_count": 25, "is_most_voted": true}, {"voted_answers": "B", "vote_count": 10, "is_most_voted": false}]</script>
+
+                          </div>
+                          <ul>
+
+                              <li class="multi-choice-item">
+
+                                  <span class="multi-choice-letter" data-choice-letter="A">
+                                      A.
+                                  </span>
+
+                                  No
+                                  <span class="badge badge-success most-voted-answer-badge" title=""
+                                      style="display: none;"
+                                      data-original-title="This answer is currently the most voted for in the discussion">
+                                      Más Votado
+                                  </span>
+                              </li>
+
+                              <li class="multi-choice-item correct-hidden">
+
+                                  <span class="multi-choice-letter" data-choice-letter="B">
+                                      B.
+                                  </span>
+
+                                  Sí
+                              </li>
+
+                          </ul>
+                      </div>
+
+                      <!-- exam-view410 -->
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary reveal-solution d-print-none">Mostrar Solución</a>
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary hide-solution d-print-none d-none">Ocultar Solución</a>
+
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-secondary question-discussion-button d-print-none">
+                          <i class="fa fa-comment"></i>
+                          &nbsp; Discusión &nbsp;
+
+                          <span class="badge badge-pill badge-light">30</span>
+
+
+                      </a>
+
+                      <!-- exam-view411 -->
+                      <p class="card-text question-answer bg-light white-text" style="display: none;">
+                          <span class="correct-answer-box"><strong>Respuesta Correcta:</strong>
+                              <span class="correct-answer">B</span>
+
+                              <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                                  class="vote-answer-button ml-1 d-print-none" data-toggle="tooltip" title=""
+                                  data-original-title="Votar una respuesta">🗳️</a>
+                              <br>
+                          </span>
+
+                          <span class="answer-description">
+                              En su lugar, actualiza el archivo web.config para incluir el elemento de
+                              configuración applicationInitialization. Especifica acciones de inicialización
+                              personalizadas para ejecutar los scripts.<br>Nota: Algunas aplicaciones pueden
+                              requerir acciones de precalentamiento personalizadas antes del intercambio. El
+                              elemento de configuración applicationInitialization en el archivo web.config te
+                              permite especificar acciones de inicialización personalizadas. La operación de
+                              intercambio espera a que este precalentamiento personalizado finalice antes de
+                              intercambiar con el espacio de implementación de destino. Aquí tienes un
+                              fragmento de web.config de
+                              muestra.<br>&lt;system.webServer&gt;<br>&lt;applicationInitialization&gt;<br>&lt;add
+                              initializationPage="/" hostName="[nombre del host de la aplicación]"
+                              /&gt;<br>&lt;add initializationPage="/Home/About" hostName="[nombre del host de
+                              la aplicación]"
+                              /&gt;<br>&lt;/applicationInitialization&gt;<br>&lt;/system.webServer&gt;<br>Referencia:<br>https://docs.microsoft.com/en-us/azure/app-service/deploy-staging-slots#troubleshoot-swaps
+                          </span>
+                      </p>
+                  </div>
+              </div>
+              <!-- / Question  -->
+
+
+
+
+              <!-- exam-view48 -->
+              <!-- Question -->
+              <div class="card exam-question-card">
+                  <div class="card-header text-white bg-primary">
+                      Pregunta #7
+                      <span class="question-title-topic pull-right">
+                          Tema 2
+                      </span>
+                  </div>
+                  <div class="card-body question-body" data-id="816268">
+                      <p class="card-text">
+
+                          Nota: Esta pregunta es parte de una serie de preguntas que presentan el mismo
+                          escenario. Cada pregunta en la serie contiene una solución única que podría cumplir
+                          con los objetivos establecidos. Algunos conjuntos de preguntas podrían tener más de
+                          una solución correcta, mientras que otros podrían no tener una solución
+                          correcta.<br>Después de responder una pregunta en esta sección, NO podrás volver a
+                          ella. Como resultado, estas preguntas no aparecerán en la pantalla de
+                          revisión.<br>Desarrollas y despliegas una aplicación API de Azure App Service en un
+                          espacio de implementación alojado en Windows llamado Desarrollo. Creas espacios de
+                          implementación adicionales llamados Pruebas y Producción. Habilitas el intercambio
+                          automático en el espacio de implementación Producción.<br>Necesitas asegurarte de
+                          que los scripts se ejecuten y los recursos estén disponibles antes de que ocurra una
+                          operación de intercambio.<br>Solución: Deshabilita el intercambio automático.
+                          Actualiza la aplicación con un método llamado statuscheck para ejecutar los scripts.
+                          Vuelve a habilitar el intercambio automático y despliega la aplicación en el espacio
+                          de implementación Producción.<br>¿Cumple la solución con el objetivo?<br>
+
+                      </p>
+                      <!-- exam-view49 -->
+
+                      <div class="question-choices-container">
+                          <div class="voted-answers-tally d-none">
+
+                              <script id="816268"
+                                  type="application/json">[{"voted_answers": "A", "vote_count": 28, "is_most_voted": true}, {"voted_answers": "B", "vote_count": 7, "is_most_voted": false}]</script>
+
+                          </div>
+                          <ul>
+
+                              <li class="multi-choice-item">
+
+                                  <span class="multi-choice-letter" data-choice-letter="A">
+                                      A.
+                                  </span>
+
+                                  No
+                                  <span class="badge badge-success most-voted-answer-badge" title=""
+                                      style="display: none;"
+                                      data-original-title="This answer is currently the most voted for in the discussion">
+                                      Más Votado
+                                  </span>
+                              </li>
+
+                              <li class="multi-choice-item correct-hidden">
+
+                                  <span class="multi-choice-letter" data-choice-letter="B">
+                                      B.
+                                  </span>
+
+                                  Sí
+                              </li>
+
+                          </ul>
+                      </div>
+
+                      <!-- exam-view410 -->
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary reveal-solution d-print-none">Mostrar Solución</a>
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary hide-solution d-print-none d-none">Ocultar Solución</a>
+
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-secondary question-discussion-button d-print-none">
+                          <i class="fa fa-comment"></i>
+                          &nbsp; Discusión &nbsp;
+
+                          <span class="badge badge-pill badge-light">25</span>
+
+
+                      </a>
+
+                      <!-- exam-view411 -->
+                      <p class="card-text question-answer bg-light white-text" style="display: none;">
+                          <span class="correct-answer-box"><strong>Respuesta Correcta:</strong>
+                              <span class="correct-answer">B</span>
+
+                              <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                                  class="vote-answer-button ml-1 d-print-none" data-toggle="tooltip" title=""
+                                  data-original-title="Votar una respuesta">🗳️</a>
+                              <br>
+                          </span>
+
+                          <span class="answer-description">
+                              En su lugar, actualiza el archivo web.config para incluir el elemento de
+                              configuración applicationInitialization. Especifica acciones de inicialización
+                              personalizadas para ejecutar los scripts.<br>Nota: Algunas aplicaciones pueden
+                              requerir acciones de precalentamiento personalizadas antes del intercambio. El
+                              elemento de configuración applicationInitialization en el archivo web.config te
+                              permite especificar acciones de inicialización personalizadas. La operación de
+                              intercambio espera a que este precalentamiento personalizado finalice antes de
+                              intercambiar con el espacio de implementación de destino. Aquí tienes un
+                              fragmento de web.config de
+                              muestra.<br>&lt;system.webServer&gt;<br>&lt;applicationInitialization&gt;<br>&lt;add
+                              initializationPage="/" hostName="[nombre del host de la aplicación]"
+                              /&gt;<br>&lt;add initializationPage="/Home/About" hostName="[nombre del host de
+                              la aplicación]"
+                              /&gt;<br>&lt;/applicationInitialization&gt;<br>&lt;/system.webServer&gt;<br>Referencia:<br>https://docs.microsoft.com/en-us/azure/app-service/deploy-staging-slots#troubleshoot-swaps
+                          </span>
+                      </p>
+                      <!-- exam-view412 -->
+
+
+                  </div>
+              </div>
+
+              <!-- / Question  -->
+
+
+
+
+              <!-- exam-view48 -->
+              <!-- Question -->
+              <div class="card exam-question-card">
+                  <div class="card-header text-white bg-primary">
+                      Pregunta #8
+                      <span class="question-title-topic pull-right">
+                          Tema 2
+                      </span>
+                  </div>
+                  <div class="card-body question-body" data-id="816269">
+                      <p class="card-text">
+
+
+                          Nota: Esta pregunta es parte de una serie de preguntas que presentan el mismo
+                          escenario. Cada pregunta en la serie contiene una solución única que podría cumplir
+                          con los objetivos establecidos. Algunos conjuntos de preguntas podrían tener más de
+                          una solución correcta, mientras que otros podrían no tener una solución
+                          correcta.<br>Desarrollas una oferta de software como servicio (SaaS) para
+                          administrar fotografías. Los usuarios cargan fotos en un servicio web que luego
+                          almacena las fotos en el almacenamiento de blobs de Azure. El tipo de cuenta de
+                          almacenamiento es General-purpose V2.<br>Cuando se cargan fotos, deben procesarse
+                          para producir y guardar una versión compatible con dispositivos móviles de la
+                          imagen. El proceso para producir una versión compatible con dispositivos móviles de
+                          la imagen debe comenzar en menos de un minuto.<br>Necesitas diseñar el proceso que
+                          inicia el procesamiento de fotos.<br>Solución: Convierte la cuenta de almacenamiento
+                          de Azure a una cuenta de almacenamiento BlockBlobStorage.<br>¿Cumple la solución con
+                          el objetivo?<br>
+
+                      </p>
+                      <!-- exam-view49 -->
+
+                      <div class="question-choices-container">
+                          <div class="voted-answers-tally d-none">
+
+                              <script id="816269"
+                                  type="application/json">[{"voted_answers": "B", "vote_count": 11, "is_most_voted": true}, {"voted_answers": "A", "vote_count": 1, "is_most_voted": false}]</script>
+
+                          </div>
+                          <ul>
+
+                              <li class="multi-choice-item">
+
+                                  <span class="multi-choice-letter" data-choice-letter="A">
+                                      A.
+                                  </span>
+
+                                  Sí
+                              </li>
+
+                              <li class="multi-choice-item correct-hidden">
+
+                                  <span class="multi-choice-letter" data-choice-letter="B">
+                                      B.
+                                  </span>
+
+                                  No
+                                  <span class="badge badge-success most-voted-answer-badge" title=""
+                                      style="display: none;"
+                                      data-original-title="This answer is currently the most voted for in the discussion">
+                                      Más Votado
+                                  </span>
+                              </li>
+
+                          </ul>
+                      </div>
+
+                      <!-- exam-view410 -->
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary reveal-solution d-print-none">Mostrar Solución</a>
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary hide-solution d-print-none d-none">Ocultar Solución</a>
+
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-secondary question-discussion-button d-print-none">
+                          <i class="fa fa-comment"></i>
+                          &nbsp; Discusión &nbsp;
+
+                          <span class="badge badge-pill badge-light">29</span>
+
+
+                      </a>
+
+                      <!-- exam-view411 -->
+                      <p class="card-text question-answer bg-light white-text" style="display: none;">
+                          <span class="correct-answer-box"><strong>Respuesta Correcta:</strong>
+                              <span class="correct-answer">B</span>
+
+                              <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                                  class="vote-answer-button ml-1 d-print-none" data-toggle="tooltip" title=""
+                                  data-original-title="Votar una respuesta">🗳️</a>
+                              <br>
+                          </span>
+
+                          <span class="answer-description">
+                              No es necesario convertir la cuenta, en su lugar, mueve el procesamiento de
+                              fotos a una Función de Azure desencadenada desde la carga del blob..<br>Los
+                              eventos de Azure Storage permiten que las aplicaciones reaccionen a eventos. Los
+                              escenarios comunes de eventos de Blob storage incluyen el procesamiento de
+                              imágenes o videos, la indexación de búsqueda o cualquier flujo de trabajo
+                              orientado a archivos.<br>Nota: Solo las cuentas de almacenamiento de tipo
+                              StorageV2 (general purpose v2) y BlobStorage admiten la integración de eventos.
+                              Storage (general purpose v1) no admite la integración con Event
+                              Grid.<br>Referencia:<br>https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-event-overview
+                          </span>
+                      </p>
+                      <!-- exam-view412 -->
+
+
+                  </div>
+              </div>
+
+              <!-- / Question  -->
+
+
+
+
+              <!-- exam-view48 -->
+              <!-- Question -->
+              <div class="card exam-question-card">
+                  <div class="card-header text-white bg-primary">
+                      Pregunta #9
+                      <span class="question-title-topic pull-right">
+                          Tema 2
+                      </span>
+                  </div>
+                  <div class="card-body question-body" data-id="816270">
+                      <p class="card-text">
+
+
+                          AREA CALIENTE -<br>Estás desarrollando una aplicación web de Azure. Configuras la
+                          autenticación mutua de TLS para la aplicación web.<br>Necesitas validar el
+                          certificado del cliente en la aplicación web. Para responder, selecciona las
+                          opciones apropiadas en el área de respuesta.<br>NOTA: Cada selección correcta vale
+                          un punto.<br>Área Caliente:<br><img src="./p5_files/0010000001.jpg"
+                              class="in-exam-image"><br>
+
+                      </p>
+                      <!-- exam-view49 -->
+
+                      <!-- exam-view410 -->
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary reveal-solution d-print-none">Mostrar Solución</a>
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary hide-solution d-print-none d-none">Ocultar Solución</a>
+
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-secondary question-discussion-button d-print-none">
+                          <i class="fa fa-comment"></i>
+                          &nbsp; Discusión &nbsp;
+
+                          <span class="badge badge-pill badge-light">29</span>
+
+
+                      </a>
+
+                      <!-- exam-view411 -->
+                      <p class="card-text question-answer bg-light white-text" style="display: none;">
+                          <span class="correct-answer-box"><strong>Respuesta Correcta:</strong>
+                              <span class="correct-answer"><img src="./p5_files/0010100001.jpg"
+                                      class="in-exam-image"></span>
+                              <br>
+                          </span>
+
+                          <span class="answer-description">
+                              Accediendo al certificado del cliente desde App Service.<br>Si estás utilizando
+                              ASP.NET y configuras tu aplicación para usar la autenticación con certificado de
+                              cliente, el certificado estará disponible a través de la propiedad
+                              HttpRequest.ClientCertificate. Para otras pilas de aplicaciones, el certificado
+                              del cliente estará disponible en tu aplicación a través de un valor codificado
+                              en base64 en el encabezado de solicitud "X-ARR-ClientCert". Tu aplicación puede
+                              crear un certificado a partir de este valor y luego usarlo con fines de
+                              autenticación y autorización en tu
+                              aplicación.<br>Referencia:<br>https://docs.microsoft.com/en-us/azure/app-service/app-service-web-configure-tls-mutual-auth
+                          </span>
+                      </p>
+                      <!-- exam-view412 -->
+
+
+                  </div>
+              </div>
+
+              <!-- / Question  -->
+
+
+
+
+              <!-- exam-view48 -->
+              <!-- Question -->
+              <div class="card exam-question-card">
+                  <div class="card-header text-white bg-primary">
+                      Pregunta #10
+                      <span class="question-title-topic pull-right">
+                          Tema 2
+                      </span>
+                  </div>
+                  <div class="card-body question-body" data-id="816271">
+                      <p class="card-text">
+
+
+                          ARRASTRAR Y SOLTAR -<br>Estás desarrollando una aplicación Docker/Go utilizando
+                          Azure App Service Web App para Contenedores. Planeas ejecutar el contenedor en un
+                          App Service en Linux. Identificas una<br>imagen de contenedor Docker para
+                          usar.<br>Ninguno de tus grupos de recursos actuales reside en una ubicación que
+                          admita Linux. Debes minimizar el número de grupos de recursos
+                          requeridos.<br>Necesitas crear la aplicación y realizar una implementación
+                          inicial.<br>¿Qué tres comandos de Azure CLI deberías usar para desarrollar la
+                          solución? Para responder, mueve los comandos apropiados de la lista de comandos al
+                          área de respuesta y arrástralos en el orden correcto.<br>Seleccionar y
+                          Colocar:<br><img src="./p5_files/0010200001.png" class="in-exam-image"><br>
+
+                      </p>
+                      <!-- exam-view49 -->
+
+                      <!-- exam-view410 -->
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary reveal-solution d-print-none">Mostrar Solución</a>
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary hide-solution d-print-none d-none">Ocultar Solución</a>
+
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-secondary question-discussion-button d-print-none">
+                          <i class="fa fa-comment"></i>
+                          &nbsp; Discusión &nbsp;
+
+                          <span class="badge badge-pill badge-light">56</span>
+
+
+                      </a>
+
+                      <!-- exam-view411 -->
+                      <p class="card-text question-answer bg-light white-text" style="display: none;">
+                          <span class="correct-answer-box"><strong>Respuesta Correcta:</strong>
+                              <span class="correct-answer"><img src="./p5_files/0010300001.png"
+                                      class="in-exam-image"></span>
+                              <br>
+                          </span>
+
+                          <span class="answer-description">
+                              Puedes alojar aplicaciones nativas de Linux en la nube utilizando Azure Web
+                              Apps. Para crear una Web App para Contenedores, debes ejecutar comandos de Azure
+                              CLI que creen un grupo, luego un plan de servicio y finalmente la propia
+                              aplicación web.<br><br>Paso 1: az group create -<br>En Cloud Shell, crea un
+                              grupo de recursos con el comando az group create.<br>Paso 2: az appservice plan
+                              create<br>En Cloud Shell, crea un plan de App Service en el grupo de recursos
+                              con el comando az appservice plan create.<br><br>Paso 3: az webapp create
+                              -<br>En Cloud Shell, crea una aplicación web en el plan de App Service
+                              myAppServicePlan con el comando az webapp create. No olvides reemplazar
+                              <nombre-unico-de-la-aplicación> con un nombre de aplicación único, y
+                                  <id-de-docker> con tu ID de
+                                      Docker.<br>Referencia:<br>https://docs.microsoft.com/mt-mt/azure/app-service/containers/quickstart-docker-go?view=sql-server-ver15
+                                  </id-de-docker></nombre-unico-de-la-aplicación></span>
+                      </p>
+                      <!-- exam-view412 -->
+
+
+                  </div>
+              </div>
+
+              <!-- / Question  -->
+
+
+
+
+              <!-- exam-view48 -->
+              <!-- Question -->
+              <div class="card exam-question-card">
+                  <div class="card-header text-white bg-primary">
+                      Pregunta #11
+                      <span class="question-title-topic pull-right">
+                          Tema 2
+                      </span>
+                  </div>
+                  <div class="card-body question-body" data-id="816272">
+                      <p class="card-text">
+
+
+                          ARRASTRAR Y SOLTAR -<br>Fourth Coffee tiene una aplicación web ASP.NET Core que se
+                          ejecuta en Docker. La aplicación está mapeada al dominio
+                          www.fourthcoffee.com.<br>Fourth Coffee está migrando esta aplicación a
+                          Azure.<br>Debes aprovisionar una aplicación web de App Service para alojar esta
+                          imagen de Docker y mapear el dominio personalizado a la aplicación web de App
+                          Service.<br>Se ha creado un grupo de recursos llamado
+                          FourthCoffeePublicWebResourceGroup en la región WestUS que contiene un Plan de App
+                          Service llamado<br>AppServiceLinuxDockerPlan.<br>¿En qué orden deben utilizarse los
+                          comandos de la CLI para desarrollar la solución? Para responder, mueve todos los
+                          comandos de la CLI de Azure de la lista de comandos al área de respuesta y ordénalos
+                          en el orden correcto.<br>Seleccionar y Colocar:<br><img
+                              src="./p5_files/0010500001.jpg" class="in-exam-image"><br>
+
+                      </p>
+                      <!-- exam-view49 -->
+
+                      <!-- exam-view410 -->
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary reveal-solution d-print-none">Mostrar Solución</a>
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary hide-solution d-print-none d-none">Ocultar Solución</a>
+
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-secondary question-discussion-button d-print-none">
+                          <i class="fa fa-comment"></i>
+                          &nbsp; Discusión &nbsp;
+
+                          <span class="badge badge-pill badge-light">37</span>
+
+
+                      </a>
+
+                      <!-- exam-view411 -->
+                      <p class="card-text question-answer bg-light white-text" style="display: none;">
+                          <span class="correct-answer-box"><strong>Respuesta Correcta:</strong>
+                              <span class="correct-answer"><img src="./p5_files/0010600001.jpg"
+                                      class="in-exam-image"></span>
+                              <br>
+                          </span>
+
+                          <span class="answer-description">
+                              Paso 1: #bin/bash -<br>El appName se utiliza cuando se crea el nombre de la
+                              aplicación web en el paso 2.<br><br>Paso 2: az webapp create -<br>Crea una
+                              aplicación web. En Cloud Shell, crea una aplicación web en el plan de App
+                              Service myAppServicePlan con el comando az webapp create.<br>Paso 3: az webapp
+                              config container set<br>En Create a web app, especificaste una imagen en Docker
+                              Hub en el comando az webapp create. Esto es suficiente para una imagen pública.
+                              Para usar una imagen privada, debes configurar tu ID y contraseña de Docker en
+                              tu aplicación web de Azure.<br>Paso 4: az webapp config hostname add<br>El
+                              nombre de la aplicación web se utiliza cuando se crea la aplicación web en el
+                              paso 2.<br>En Cloud Shell, sigue el comando az webapp create con az webapp
+                              config container
+                              set.<br>Referencia:<br>https://docs.microsoft.com/en-us/azure/app-service/containers/tutorial-custom-docker-image
+                              https://docs.microsoft.com/en-us/azure/app-service/tutorial-custom-container?pivots=container-linux
+                              https://docs.microsoft.com/en-us/azure/app-service/scripts/cli-configure-custom-domain
+                          </span>
+                      </p>
+                      <!-- exam-view412 -->
+
+
+                  </div>
+              </div>
+
+              <!-- / Question  -->
+
+
+
+
+              <!-- exam-view48 -->
+              <!-- Question -->
+              <div class="card exam-question-card">
+                  <div class="card-header text-white bg-primary">
+                      Pregunta #12
+                      <span class="question-title-topic pull-right">
+                          Tema 2
+                      </span>
+                  </div>
+                  <div class="card-body question-body" data-id="816273">
+                      <p class="card-text">
+
+
+                          ARRASTRAR Y SOLTAR -<br>Estás desarrollando una aplicación Java sin servidor en
+                          Azure. Creas un nuevo Azure Key Vault para trabajar con secretos desde una nueva
+                          aplicación de Azure Functions.<br>La aplicación debe cumplir con los siguientes
+                          requisitos:<br>✑ Hacer referencia al Azure Key Vault sin requerir cambios en el
+                          código Java.<br>✑ Agregar y quitar dinámicamente instancias del host de Azure
+                          Functions según el número de eventos de aplicación entrantes.<br>✑ Asegurarse de que
+                          las instancias estén siempre activas para evitar cualquier inicio en frío.<br>✑
+                          Conectarse a una VNet.<br>✑ La autenticación en la instancia de Azure Key Vault debe
+                          eliminarse si se elimina la aplicación de Azure Function.<br>Debes otorgar acceso de
+                          la aplicación de Azure Functions al Azure Key Vault.<br>¿Qué tres acciones deberías
+                          realizar en secuencia? Para responder, mueve las acciones apropiadas de la lista de
+                          acciones al área de respuesta y ordénalas en el orden correcto.<br>Seleccionar y
+                          Colocar:<br><img src="./p5_files/0010800001.png" class="in-exam-image"><br>
+
+                      </p>
+                      <!-- exam-view49 -->
+
+                      <!-- exam-view410 -->
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary reveal-solution d-print-none">Mostrar Solución</a>
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary hide-solution d-print-none d-none">Ocultar Solución</a>
+
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-secondary question-discussion-button d-print-none">
+                          <i class="fa fa-comment"></i>
+                          &nbsp; Discusión &nbsp;
+
+                          <span class="badge badge-pill badge-light">50</span>
+
+
+                      </a>
+
+                      <!-- exam-view411 -->
+                      <p class="card-text question-answer bg-light white-text" style="display: none;">
+                          <span class="correct-answer-box"><strong>Respuesta Correcta:</strong>
+                              <span class="correct-answer"><img src="./p5_files/0010900001.png"
+                                      class="in-exam-image"></span>
+                              <br>
+                          </span>
+
+                          <span class="answer-description">
+                              Paso 1: Crea la aplicación de Azure Functions con un tipo de plan de
+                              consumo.<br>Usa el plan de consumo para sin servidor.<br>Paso 2: Crea una
+                              identidad administrada asignada por el sistema para la aplicación.<br>Crea una
+                              identidad administrada asignada por el sistema para tu
+                              aplicación.<br>Actualmente, las referencias de Key Vault solo admiten
+                              identidades administradas asignadas por el sistema. Las identidades asignadas
+                              por el usuario no se pueden utilizar.<br>Paso 3: Crea una política de acceso en
+                              Key Vault para la identidad de la aplicación.<br>Crea una política de acceso en
+                              Key Vault para la identidad de la aplicación que creaste anteriormente. Habilita
+                              el permiso "Obtener" secreto en esta política. No configures la<br>opción
+                              "aplicación autorizada" ni la configuración applicationId, ya que no es
+                              compatible con una identidad
+                              administrada.<br>Referencia:<br>https://docs.microsoft.com/en-us/azure/app-service/app-service-key-vault-references
+                          </span>
+                      </p>
+                      <!-- exam-view412 -->
+
+
+                  </div>
+              </div>
+
+              <!-- / Question  -->
+
+
+
+
+              <!-- exam-view48 -->
+              <!-- Question -->
+              <div class="card exam-question-card">
+                  <div class="card-header text-white bg-primary">
+                      Pregunta #13
+                      <span class="question-title-topic pull-right">
+                          Tema 2
+                      </span>
+                  </div>
+                  <div class="card-body question-body" data-id="816274">
+                      <p class="card-text">
+
+
+                          Desarrollas un sitio web. Planeas alojar el sitio web en Azure. Esperas que el sitio
+                          web experimente volúmenes de tráfico altos después de ser publicado.<br>Debes
+                          asegurarte de que el sitio web permanezca disponible y receptivo mientras minimizas
+                          los costos.<br>Necesitas implementar el sitio web.<br>¿Qué deberías hacer?<br>
+
+                      </p>
+                      <!-- exam-view49 -->
+
+                      <div class="question-choices-container">
+                          <div class="voted-answers-tally d-none">
+
+                              <script id="816274"
+                                  type="application/json">[{"voted_answers": "D", "vote_count": 34, "is_most_voted": true}]</script>
+
+                          </div>
+                          <ul>
+
+                              <li class="multi-choice-item">
+
+                                  <span class="multi-choice-letter" data-choice-letter="A">
+                                      A.
+                                  </span>
+
+                                  Implementa el sitio web en una máquina virtual. Configura la máquina virtual
+                                  para escalar automáticamente cuando la carga de la CPU sea alta.
+                              </li>
+
+                              <li class="multi-choice-item">
+
+                                  <span class="multi-choice-letter" data-choice-letter="B">
+                                      B.
+                                  </span>
+
+                                  Implementa el sitio web en un Servicio de Aplicaciones que utilice el nivel
+                                  de servicio Compartido. Configura el plan del Servicio de Aplicaciones para
+                                  escalar automáticamente cuando la carga de la CPU sea alta.
+                              </li>
+
+                              <li class="multi-choice-item">
+
+                                  <span class="multi-choice-letter" data-choice-letter="C">
+                                      C.
+                                  </span>
+
+                                  Implementa el sitio web en una máquina virtual. Configura un Conjunto de
+                                  Escalado para aumentar el número de instancias de la máquina virtual cuando
+                                  la carga de la CPU sea alta.
+                              </li>
+
+                              <li class="multi-choice-item correct-hidden">
+
+                                  <span class="multi-choice-letter" data-choice-letter="D">
+                                      D.
+                                  </span>
+
+                                  Implementa el sitio web en un Servicio de Aplicaciones que utilice el nivel
+                                  de servicio Estándar. Configura el plan del Servicio de Aplicaciones para
+                                  escalar automáticamente cuando la carga de la CPU sea alta.
+                                  <span class="badge badge-success most-voted-answer-badge" title=""
+                                      style="display: none;"
+                                      data-original-title="Esta respuesta es actualmente la más votada en la discusión">
+                                      Más Votada
+                                  </span>
+                              </li>
+
+                          </ul>
+                      </div>
+
+                      <!-- exam-view410 -->
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary reveal-solution d-print-none">Mostrar Solución</a>
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-primary hide-solution d-print-none d-none">Ocultar Solución</a>
+
+                      <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                          class="btn btn-secondary question-discussion-button d-print-none">
+                          <i class="fa fa-comment"></i>
+                          &nbsp; Discusión &nbsp;
+
+                          <span class="badge badge-pill badge-light">52</span>
+
+
+                      </a>
+
+                      <!-- exam-view411 -->
+                      <p class="card-text question-answer bg-light white-text" style="display: none;">
+                          <span class="correct-answer-box"><strong>Respuesta Correcta:</strong>
+                              <span class="correct-answer">D</span>
+
+                              <a href="https://www.examtopics.com/exams/microsoft/az-204/view/5/#"
+                                  class="vote-answer-button ml-1 d-print-none" data-toggle="tooltip" title=""
+                                  data-original-title="Votar una respuesta">🗳️</a>
+                              <br>
+                          </span>
+
+                          <span class="answer-description">
+                              Windows Azure Web Sites (WAWS) ofrece 3 modos: Estándar, Gratis y
+                              Compartido.<br>El modo Estándar tiene un SLA (Acuerdo de Nivel de Servicio) de
+                              nivel empresarial del 99.9% mensual, incluso para sitios con solo una
+                              instancia.<br>El modo Estándar se ejecuta en instancias dedicadas, lo que lo
+                              diferencia de las otras formas de comprar Windows Azure Web Sites.<br>Respuestas
+                              Incorrectas:<br>B: Los modos Compartido y Gratis no ofrecen la flexibilidad de
+                              escalado del Estándar, y tienen algunos límites importantes.<br>El modo
+                              Compartido, como su nombre lo indica, también utiliza recursos de cómputo
+                              compartidos y también tiene un límite de CPU. Por lo tanto, ni Gratis ni
+                              Compartido probablemente sean la mejor opción para su entorno de producción
+                              debido a estos límites.
+                          </span>
+                      </p>
+                      <!-- exam-view412 -->
+
+
+                  </div>
+              </div>
+
+              <!-- / Question  -->
+
+
+              <!-- exam-view413 -->
+          </div>
+
+
+      </div>
+    </div>
 
     <!-- page 6 -->
 
